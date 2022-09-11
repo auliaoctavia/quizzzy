@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/purpul"
+    tools:context=".Start">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="choose your level"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-medium">
+    </TextView>
+
+    <ImageView
+        android:id="@+id/easy"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:src="@drawable/easyy"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp">
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/medium"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:src="@drawable/mediumm"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp">
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/hard"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:src="@drawable/hardd"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp">
+    </ImageView>
+
+
+</LinearLayout>
