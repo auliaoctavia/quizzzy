@@ -10,6 +10,90 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Quizzz">
         <activity
+            android:name=".easyhh"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".hardj"
+            android:exported="false" />
+        <activity
+            android:name=".hardi"
+            android:exported="false" />
+        <activity
+            android:name=".hardh"
+            android:exported="false" />
+        <activity
+            android:name=".hardg"
+            android:exported="false" />
+        <activity
+            android:name=".hardf"
+            android:exported="false" />
+        <activity
+            android:name=".harde"
+            android:exported="false" />
+        <activity
+            android:name=".hardd"
+            android:exported="false" />
+        <activity
+            android:name=".hardc"
+            android:exported="false" />
+        <activity
+            android:name=".hardb"
+            android:exported="false" />
+        <activity
+            android:name=".mediumj"
+            android:exported="false" />
+        <activity
+            android:name=".mediumi"
+            android:exported="false" />
+        <activity
+            android:name=".mediumh"
+            android:exported="false" />
+        <activity
+            android:name=".mediumg"
+            android:exported="false" />
+        <activity
+            android:name=".mediumf"
+            android:exported="false" />
+        <activity
+            android:name=".mediume"
+            android:exported="false" />
+        <activity
+            android:name=".mediumd"
+            android:exported="false" />
+        <activity
+            android:name=".mediumc"
+            android:exported="false" />
+        <activity
+            android:name=".mediumb"
+            android:exported="false" />
+        <activity
+            android:name=".easyi"
+            android:exported="false" />
+        <activity
+            android:name=".easyh"
+            android:exported="false" />
+        <activity
+            android:name=".easyg"
+            android:exported="false" />
+        <activity
+            android:name=".easyf"
+            android:exported="false" />
+        <activity
+            android:name=".easye"
+            android:exported="false" />
+        <activity
+            android:name=".easyc"
+            android:exported="false" />
+        <activity
+            android:name=".easyd"
+            android:exported="false" />
+        <activity
+            android:name=".easyb"
+            android:exported="false" />
+        <activity
             android:name=".easya"
             android:exported="false" />
         <activity
@@ -25,7 +109,7 @@
             android:name=".Start"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
